@@ -1,10 +1,10 @@
 import java.util.Random;
 
 public class Dice {
-    private Random rand = new Random();
+    private final Random rand = new Random();
 
-    private int numFacesPerDie;
-    private int numDice;
+    private final int numFacesPerDie;
+    private final int numDice;
 
     // Choose number of faces and number of dice for this object
     // if you want you can use the enum Faces that I wrote

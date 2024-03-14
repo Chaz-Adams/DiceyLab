@@ -1,5 +1,4 @@
 public class Simulation {
-
     private int numberOfDies;
     private int numberOfTosses;
 
@@ -13,12 +12,12 @@ public class Simulation {
         return numberOfDies;
     }
 
-    public void setNumberOfDies(int numberOfDies) {
-        this.numberOfDies = numberOfDies;
-    }
-
     public int getNumberOfTosses() {
         return numberOfTosses;
+    }
+
+    public void setNumberOfDies(int numberOfDies) {
+        this.numberOfDies = numberOfDies;
     }
 
     public void setNumberOfTosses(int numberOfTosses) {
